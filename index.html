@@ -6,11 +6,56 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Practical</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous" />
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+            body
+            {
+                min-width: 100%;
+                background-color: lightgrey;
+            }
+            .wrapper
+            {
+                width: 600px;
+                background-color: #fff;
+                padding: 10px;
+                margin: 20px auto;
+            }
+            .custom-table
+            {
+                width: 100%;
+                margin: 0 auto;
+                border-collapse: collapse;
+            }
+            .basic
+            {
+                background-color: #c1dcb7;
+            }
+            .plus
+            {
+                background-color: #bad6c8;
+            }
+            .deluxe
+            {
+                background-color: #bbd3dc;
+            }
+            .pro
+            {
+                background-color: #d5e4bc;
+            }
+        }
+    </style>
 </head>
 <body>
     <div class="wrapper">
-        <div class="custom-table">
-            <table>
+        <h2>SELECT YOUR PLAN</h2>
+        <table class="custom-table">
+            <colgroup class="Basic"></colgroup>
+            <colgroup class="Plus"></colgroup>
+            <colgroup class="Deluxe"></colgroup>
+            <colgroup class="Pro"></colgroup>
                 <thead>
                     <tr>
                         <th>
@@ -135,6 +180,34 @@
                         </td>
                         <td>
                             <img src="./check icon.jpg" alt="">
+                        </td>
+                        <td>
+                            <img src="./check icon.jpg" alt="">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <img src="./x icon.png" alt="">
+                        </td>
+                        <td>
+                            <img src="./x icon.png" alt="">
+                        </td>
+                        <td>
+                            <img src="./check icon.jpg" alt="">
+                        </td>
+                        <td>
+                            <img src="./check icon.jpg" alt="">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <img src="./x icon.png" alt="">
+                        </td>
+                        <td>
+                            <img src="./x icon.png" alt="">
+                        </td>
+                        <td>
+                            <img src="./x icon.png" alt="">
                         </td>
                         <td>
                             <img src="./check icon.jpg" alt="">
